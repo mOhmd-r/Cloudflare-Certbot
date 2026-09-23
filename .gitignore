@@ -1,0 +1,15 @@
+# Local secrets and certificate material
+cloudflare.ini
+credentials.ini
+*.credentials
+*.key
+*.pem
+.env
+
+# Python/editor/OS noise
+__pycache__/
+*.pyc
+.venv/
+certbot-venv/
+.DS_Store
+*.swp
